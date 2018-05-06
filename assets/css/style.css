@@ -1,0 +1,31 @@
+body {
+	color: #F7F4CE;
+	text-align: center;
+}
+
+/*Navbar*/
+
+.navbar_fundacion {
+	padding-top: 25px;
+	background-color: #F7F4CE;
+	border-top:1px solid #e0e0e0;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+
+.navbar_fundacion img {
+	 position: relative;
+	 top: -20px;
+	 width:100px;
+	 height:50px;
+	 
+}
+
+/*header*/ 
+
+.header_fundacion {
+	background-image: url("../img/header.jpg");
+	padding: 100px;
+	background-size: cover;
+	height: 600px;
+}
