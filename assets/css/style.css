@@ -15,14 +15,15 @@ h1 {
 h2 {
 	font-size: 0.7em;
 	text-transform: uppercase;
+	letter-spacing: 3px;
 	
 }
 
 h3 {
 	font-size: 0.5em;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 	
-
 }
 
 h4 {
@@ -30,10 +31,12 @@ h4 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 
+
 }
 
 p {
 	font-size: 0.4em;	
+	text-align: justify;
 
 }
 
@@ -45,8 +48,11 @@ li {
 
 .jumbotron{
 	margin-bottom: 0;
-	background-color: #78706B;
+	background-color: #F5B836;
+	font-size: 1.5em;
+
 }
+
 /*Navbar*/ 
 
 .mainNavbar {
@@ -83,15 +89,19 @@ li {
 	height: 400px;
 }
 
+.news__thumbnail {
+	width: 150px;
+	height: 90px;
+}
+
 /*nosotros*/
 
 
 
 /*features */
 
-.features {
-	background-color: #333;
-}
+section.features {
+	  }
 .features__hospital--bg {
 	background-image: url("../img/hospital_sanjuan.jpg");
 	background-size: cover;
@@ -110,6 +120,9 @@ li {
 	height: 300px;
 }
 
+.features__entry {
+	padding: 20px;
+}
 /*donación*/
 
 /*footer*/
@@ -155,16 +168,25 @@ li {
 }
 
 /**nosotros**/
-.nosotros {
+.about {
 
-	background-color: #111;
+	
 
 }
 
-section.historia,  section.mision {
+section.about { 
 	padding: 20px;
+
 }
 
+.about__entry {
+	background-color: #FBEA8D;
+}
+
+.about__entry--img {
+	border: 10px solid #F5B836;
+
+}
 
 /**blog**/
 
@@ -173,16 +195,15 @@ section.historia,  section.mision {
 }
 
 .blog__entry {
-	background-color: #444;
+	background-color: #FBEA8D;
 	margin: 10px;
 	padding: 10px;
 
 }
 
 .blog__entry--img {
-	height: 300px;
-	width: cover;
-	border: 10px solid #333;
+	
+	border: 10px solid #F5B836;
 
 }
 

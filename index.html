@@ -14,6 +14,11 @@
 
 	<link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -51,6 +56,34 @@
 <!--header-->
 <header class="mainHeader">
 	<div class="row">
+        <div id="myCarousel" class="carousel slide col-md-offset-2 col-md-8" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner c">
+            <div class="item active">
+              <img src="assets/img/33127.jpg" alt="1">
+            </div>
+            <div class="item">
+              <img src="assets/img/header.jpg" alt="2">
+            </div>
+            <div class="item">
+              <img src="assets/img/nosotros.jpg" alt="3">
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
 		<h1>FUNDACIÓN NIÑOS CON CÁNCER</h1>
 	</div>
 </header>
@@ -61,6 +94,59 @@
 	<a href="noticias.html" ta>Ver noticias</a>
 </section>
 
+    
+<div class="container">
+<div class="row">
+    <h1>NOTICIA</h1>
+    
+</div>
+    <div class="row">
+        <div class="col-md-5 col-lg-5">
+            <!-- artigo em destaque -->
+            <div class="featured-article">
+                <a href="noticias.html#sanjuan">
+                    <img src="assets/img/hospital_sanjuan.jpg" alt="" class="thumbnail">
+                </a>
+                <div class="block-title">
+                    <h3>El Hospital San Juan de Dios tiene una nueva unidad de Oncología Infantil</h3>
+                    <p class="by-author"><small>By pinklightsaber</small></p>
+                </div>
+            </div>
+            <!-- /.featured-article -->
+        </div>
+        <div class="col-md-7">
+            <ul>
+              <li class="media">
+                <a class="pull-left" href="noticias.html#futbolito">
+                  <img class="thumbnail news__thumbnail" src="assets/img/futbolitoppa2018.png" alt="...">
+                </a>
+                <div class="media-body">
+                  <h2>futbolito</h2>
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, amet, maiores. Earum quis voluptatibus ipsum iste! Sed sequi, dicta voluptates, quas error, voluptatem nam ullam repellat dolorem aliquid nisi quam?</h3>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="noticias.html#tallarinata">
+                  <img class="thumbnail news__thumbnail" src="assets/img/tallarinata.png" alt="...">
+                </a>
+                <div class="media-body">
+                  <h2>TALLARINADA</h2>
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti vel ratione, in iure explicabo molestias, asperiores delectus consequatur eligendi voluptatem modi vero obcaecati, ea quibusdam rerum beatae ipsa totam laborum.</h3>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="noticias.html#becas">
+                  <img class="thumbnail news__thumbnail" src="assets/img/becas.gif" alt="...">
+                </a>
+                <div class="media-body">
+                  <h2>becas</h2>
+                  <h3>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</h3>
+                </div>
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
 <!-- sección nosotros -->
 
 <section class="nosotros">
@@ -71,12 +157,13 @@
 <section class="features">
 	<div class="row">
 		<div class="col-md-6 features__hospital--bg"></div>
-		<div class="col-md-6"> <h4>Unidades Oncología Infantil</h4> 
+		<div class="col-md-6 features__entry"> <h4>Unidades Oncología Infantil</h4> 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore aperiam labore rerum obcaecati velit atque pariatur numquam culpa deserunt eius laboriosam quae magni veritatis rem, nisi odio possimus ut iusto.</p>
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 features__entry">
+           
 			<p>Manual para padres</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste inventore dolore hic, consectetur sed molestias, sit consequuntur doloribus distinctio iure ea sunt quas facilis sequi nulla est ab. Hic, maxime.</p>
 		</div>
@@ -85,9 +172,11 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 features__corona--bg"></div>
-		<div class="col-md-6">
+		<div class="col-md-6 features__entry">
+            
 			<p>Coronas</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad praesentium quaerat, sed vel accusantium reiciendis veritatis est sunt soluta odit cupiditate illum fuga totam, doloribus, dignissimos quae dolores. Dolorem, facere.</p>
+        
 		</div>
 	</div>
 </section>
