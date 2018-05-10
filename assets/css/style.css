@@ -3,12 +3,16 @@ body {
 	text-align: center;
 	background-color: #F7F4CE;
 	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
 
 }
 
+
 h1 {
-	font-size: 0.9em;
+	font-size: 1.3em;
 	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	color: #F7F4CE
 	
 }
 
@@ -44,14 +48,55 @@ li {
 	font-size: 0.5em;
 	display: inline-block;
 	padding:5px 4px;
+	color: #F7F4E9;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+
+}
+
+li:hover {
+	background-color: #F7F4E9;
+	color: #44454A;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+
 }
 
 .jumbotron{
 	margin-bottom: 0;
 	background-color: #F5B836;
 	font-size: 1.5em;
+	margin: 10px 30px;
+	border-radius: 50px;
 
 }
+
+.container {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50px;
+	
+}
+
+.container:hover {
+	background-color: rgba(247,244,233,0.5);
+}
+
+.thumbnail {
+	max-width: 100%;
+
+}
+
+.button {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+
 
 /*Navbar*/ 
 
@@ -59,8 +104,9 @@ li {
 	padding-top: 25px;
 	background-color: #44454A;
 	border-top:1px solid #e0e0e0;
-	padding-bottom: 5px;
+	padding-bottom: 20px 50px;
 	margin-bottom: 0;
+
 }
 
 .mainNavbar img {
@@ -78,15 +124,18 @@ li {
 	padding: 100px;
 	background-size: cover;
 	height: 600px;
+	margin: 0;
 }
+
+
 
 /*news*/
 
-.noticias {
+section.noticias {
 
 	background-image: url("../img/33127.jpg");
 	background-size: cover;
-	height: 400px;
+	
 }
 
 .news__thumbnail {
@@ -163,6 +212,7 @@ section.features {
 
 .mapa {
 	
+	display: inline-block;
 	
 
 }
@@ -181,10 +231,13 @@ section.about {
 
 .about__entry {
 	background-color: #FBEA8D;
+	padding: 20px;
 }
 
 .about__entry--img {
 	border: 10px solid #F5B836;
+	max-width: 100%;
+	margin: 10px;
 
 }
 
@@ -204,6 +257,7 @@ section.about {
 .blog__entry--img {
 	
 	border: 10px solid #F5B836;
+	max-width: 100%;
 
 }
 
@@ -213,6 +267,41 @@ section.about {
 
 						/*M O B I L E */
 
-@media (min-width: 768px) {
-	.footer-bs .footer-social { border-left:solid 1px rgba(255,255,255,0.10); }
+@media (max-width: 768px) {
+
+	.footer-bs .footer-social { 
+		border-left:solid 1px rgba(255,255,255,0.10); 
+	}
+
+	.mainHeader {
+		padding: 10px;
+
+	}
+	.mainNavbar {
+		position: static;
+	}
+
+	.jumbotron{
+	margin-bottom: 0;
+	background-color: #F5B836;
+	font-size: 1.1em;
+	margin: 5px 15px;
+	border-radius: 30px;
+
 }
+	.container {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 30px;
+	
+}
+
+	.mainHeader {
+		height: 300px
+	}
+	
+
+ }
