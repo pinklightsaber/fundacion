@@ -17,74 +17,61 @@
 </head>
 
 <body>
-	<nav class="navbar mainNavbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">
-		<img alt="Brand" src="assets/img/logo.png">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-  
-      
-      <ul class=" navbar-nav navbar-right">
-        <li><a href="nosotros.html">QUIENES SOMOS</a></li>
-        <li><a href="noticias.html">NOTICIAS</a></li>
-        <li><a href="#">ACTIVIDADES</a></li>
-        <li><a href="#">COLABORADORES</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	<nav class="navbar mainNavbar navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+  		    <img alt="Brand" src="assets/img/logo.png">
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class=" navbar-nav navbar-right">
+          <li><a href="nosotros.html">QUIENES SOMOS</a></li>
+          <li><a href="noticias.html">NOTICIAS</a></li>
+          <li><a href="#">ACTIVIDADES</a></li>
+          <li><a href="#">COLABORADORES</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
 <!-- Blog  -->
 <section class="blog">
-       <div class="row">
+  <div class="row">
 <!-- Blog entradas  -->
-
     <div class="col-md-7 col-md-offset-1">
         <h2>NOTICIAS
             <small>Últimas noticias</small>
         </h2>
-
           <!-- Blog Post -->
         <div class="blog__entry" id="becas">
-            <img class="blog__entry--img" src="assets/img/becas.gif">
-                <div class="blog__card">
-                  <h4>BECAS DE ESTUDIO</h4>
+          <img class="blog__entry--img" src="assets/img/becas.gif">
+              <div class="blog__card">
+                <h4>BECAS DE ESTUDIO</h4>
                   <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
-
-                <p> Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.</p>
-
-                    <p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
-
-                    <p>Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
-
-                    
-
-                  <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                  <p> Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.</p>
+                  <p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
+                  <p>Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
+                  <button class="button__entry">Leer más</button>
                 </div>
         </div>
 
           <!-- Blog Post -->
-        <div class="blog__entry" id= "tallarinata">
-             
-            <img class="blog__entry--img" src="assets/img/tallarinata.png">
-              
-                <div class="blog__card">
-                  <h4>titulo</h4>
-                  <p class="blog__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                  <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                </div>
+        <div class="blog__entry" id= "tallarinata"> 
+          <img class="blog__entry--img" src="assets/img/tallarinata.png">
+            <div class="blog__card">
+                <h4>titulo</h4>
+                <p class="blog__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                <button class="button__entry">Leer más</button>
+              </div>
         </div>
 
           <!-- Blog Post -->
@@ -93,7 +80,7 @@
                 <div class="blog__card">
                   <h4> El Hospital San Juan de Dios tiene una nueva unidad de Oncología Infantil</h4>
                   <p>La Fundación Niño y Cáncer inauguró el 20 de enero de 2012, la remodelación de la Unidad de Oncología Pediátrica del Hospital San Juan de Dios con la asistencia del Dr. Juan Quintana, presidente de la Fundación, acompañado de parte del Directorio, Voluntarias y Equipo de Trabajo, Dr. Kehr Director del Hospital, Dra. Varas; Jefe de la Unidad, Dr. Salinas; Jefe de Pediatría, representantes del Ministerio de Salud, y un numeroso grupo de médicos, enfermeras y personal del servicio.</p>
-                  <button>Leer más</button>
+                  <button class="button__entry">Leer más</button>
                 </div>
         </div>
             <!-- Blog Post -->
@@ -102,31 +89,23 @@
                 <div class="blog__card">
                   <h4> Estimulando el deporte en los niños con cáncer</h4>
                   <p>Con gran entusiasmo y una importante participación se llevó a cabo, el domingo 15 de abril,  el XV Torneo Inter Hospitales de Futbolito y Porristas 2018, en el que participaron niños que padecen de cáncer y que son atendidos en los Hospitales Luis Calvo Mackenna, Exequiel González Cortés, San Borja Arriarán, San Juan de Dios, Sotero del Río y Gustavo Fricke.</p>
-                  <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                   <button class="button__entry">Leer más</button>
                 </div>
         </div>
     </div>
-   
-    
-
-
-
-
 <!-- Sidebar  -->
     <div class="col-md-3">
         <h2>NOTICIAS
             <small>Últimas noticias</small>
         </h2>
-        
-            <ul>
-              <li>
-                <div class="blog__entry">
+          <ul>
+            <li>
+              <div class="blog__entry">
                 <a class="pull-left" href="noticias.html#futbolito">
                   <img class="thumbnail news__thumbnail" src="assets/img/futbolitoppa2018.png" alt="...">
                 </a>
-                
-                  <h2>futbolito</h2>
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, amet, maiores. Earum quis voluptatibus ipsum iste! Sed sequi, dicta voluptates, quas error, voluptatem nam ullam repellat dolorem aliquid nisi quam?</h3>
+                <h2>futbolito</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, amet, maiores. Earum quis voluptatibus ipsum iste! Sed sequi, dicta voluptates, quas error, voluptatem nam ullam repellat dolorem aliquid nisi quam?</h3>
                 </div>
               </li>
               <li>
@@ -151,8 +130,7 @@
               </li>
             </ul>
         </div>
-    </div>
-</div>
+  </div>
 </section>
 
 
@@ -192,9 +170,9 @@
     </div> 
 </footer>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,700|Roboto" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,700|Roboto" rel="stylesheet"> 
 
 		<!-- Font Awesome 5 -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 </body>

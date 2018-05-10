@@ -91,10 +91,12 @@ li:hover {
 
 }
 
-.button {
-	background-color: #333;
+.button__entry {
+	background-color: #F7F4CE;
 	border: 1px solid #333;
-}
+	border-radius: 10px;
+	font-size: 0.6em;
+	padding: 0.3em  }
 
 
 
